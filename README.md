@@ -29,6 +29,8 @@ HTML yra savarankiškas: lentelių maketas, įterpti stiliai ir Outlook sąlygin
 3. Paleiskite `node export.cjs https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/COMMIT_SHA/assets`, pakeitę `COMMIT_SHA` tikru 40 simbolių SHA. Jei vaizdai nekeisti, pakanka `node export.cjs` – bus naudojamas esamas `image-hosting.json`.
 4. Įkelkite sugeneruotus siuntimo failus.
 
+Patikrai paleiskite `node verify-images.cjs` (Node.js 18 ar naujesnis). Skriptas be autorizacijos patikrina kiekvieno vaizdo HTTP atsakymą, MIME tipą ir turinio atitiktį vietiniam failui. Paskutinė patikra: visi šeši vaizdai grąžino HTTP 200; HTML maketas naršyklėje patikrintas 800, 390 ir 320 px pločiais, be horizontalaus perslinkimo.
+
 Prieš siunčiant pridėkite platformos prenumeratos atsisakymo bloką ir išsiųskite testinį laišką. Laiškas dar nesiųstas. Tai nėra galerijos svetainės pakeitimas ar automatinis laiško išsiuntimas.
 
 Stendo fotografijas pateikė užsakovas. Lingio blokas – tikros nuotraukos kadras su trimis šviesiais paveikslais. Martyno Gedimino „Daiktas“ (2022) nuotrauka iš oficialios TUMO galerijos svetainės nepristatoma kaip konkretaus mugėje eksponuojamo kūrinio dokumentacija. Originalai saugomi lokaliai; į saugyklą įtraukti tik laiške naudojami optimizuoti vaizdai.

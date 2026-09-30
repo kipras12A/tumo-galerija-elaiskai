@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/kipras12A/tumo-galerija-elaiskai",
+  "baseUrl": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets",
+  "images": [
+    {
+      "file": "tumo-logo.png",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/tumo-logo.png"
+    },
+    {
+      "file": "stendas.jpg",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/stendas.jpg"
+    },
+    {
+      "file": "confessional-stende.jpg",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/confessional-stende.jpg"
+    },
+    {
+      "file": "dubauskas-stende.jpg",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/dubauskas-stende.jpg"
+    },
+    {
+      "file": "lingys-stende.jpg",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/lingys-stende.jpg"
+    },
+    {
+      "file": "martynas-gediminas-daiktas.jpg",
+      "url": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/martynas-gediminas-daiktas.jpg"
+    }
+  ],
+  "note": "Vieši, prisijungimo nereikalaujantys vaizdai. URL pririšti prie konkretaus commit, kad išsiųsto laiško vaizdai nepasikeistų atnaujinus saugyklą."
+}

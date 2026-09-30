@@ -1,0 +1,14 @@
+TUMO GALERIJA × ARTVILNIUS’26
+
+Tema: Susitikime „ArtVilnius’26“ | TUMO galerija
+Preheader: „CONFESSIONAL“, ekspresyvi tapyba ir susitikimas TUMO galerijos stende 5.35.
+
+SIUNTIMUI: newsletter.html (pilnas HTML) arba HTML-BLOKAS.html (kodas platformos redaktoriui).
+Šiuose failuose visi šeši vaizdai turi viešus HTTPS adresus ir nereikalauja GitHub prisijungimo. Kopijuokite patį failo kodą, o ne GitHub failo puslapio adresą.
+
+LOKALIAI: preview-local.html ir HTML-BLOKAS-local.html naudoja assets katalogą. Jie nėra skirti vieno failo importui be vaizdų.
+ZIP importas: TUMO-ARTVILNIUS-HTML.zip skirtas tik platformoms, kurios moka įkelti ir susieti ZIP esančius HTML ir vaizdus.
+
+Pridėkite siuntimo platformos prenumeratos atsisakymo bloką ir išsiųskite testą. Gavėjų el. pašto programos gali savo nustatymais blokuoti išorinių vaizdų rodymą.
+Viešos saugyklos nedarykite privačios ir neištrinkite, kol reikia išsiųstų laiškų vaizdų. Nuorodos fiksuotos ties konkrečiu Git commit; main pakeitimai jų nepakeis.
+Naujienlaiškis nesiųstas. Galerijos svetainė nepakeista.

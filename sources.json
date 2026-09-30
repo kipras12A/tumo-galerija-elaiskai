@@ -1,0 +1,44 @@
+{
+  "created": "2026-09-30",
+  "photoSource": "3 tikros TUMO galerijos stendo nuotraukos, pateiktos vartotojo",
+  "fair": {
+    "dates": "2026-10-01 / 2026-10-04",
+    "publicDates": "2026-10-02 / 2026-10-04",
+    "stand": "5.35",
+    "source": "https://artvilnius.com/lt/lankytojams/",
+    "artistCatalogue": "https://artvilnius.com/catalogue/artists/"
+  },
+  "artists": {
+    "gallery": "https://tumogalerija.lt/",
+    "dubauskas": "https://tumogalerija.lt/collections/vytautas-dubauskas",
+    "lingys": "https://tumogalerija.lt/collections/vytenis-lingys",
+    "migle": "https://miglotai.com/CONFFESIONAL",
+    "martynas": "https://tumogalerija.lt/collections/martynas-gediminas",
+    "martynasArtwork": "https://tumogalerija.lt/products/martynas-gediminas-daiktas-2022-akrilas-sidabras-misri-tech-drobe-plastikas-100x100",
+    "fair": "https://artvilnius.com/lt/lankytojams/"
+  },
+  "sculptureDescriptionSource": "https://miglotai.com/CONFFESIONAL",
+  "martynasDescriptionSource": "https://tumogalerija.lt/en/collections/martynas-gediminas",
+  "martynasPhoto": {
+    "title": "Daiktas",
+    "year": 2022,
+    "medium": "Akrilas, sidabras, mišri technika, drobė, plastikas",
+    "dimensions": "100 × 100 cm",
+    "page": "https://tumogalerija.lt/products/martynas-gediminas-daiktas-2022-akrilas-sidabras-misri-tech-drobe-plastikas-100x100",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/products/IMG_3983.jpg?v=1674567748",
+    "edit": "Tik dydžio ir formato optimizavimas; visas originalus kadras išsaugotas.",
+    "note": "Kūrinio vaizdas iš galerijos svetainės; nėra patvirtinimo, kad šis konkretus kūrinys eksponuojamas mugėje."
+  },
+  "logoSource": "https://tumogalerija.lt/cdn/shop/files/tumo_logo_tumo.png?v=1650829152&width=400",
+  "lingysPhoto": {
+    "source": "sources/codex-clipboard-d6972663-dbe0-4523-b68d-df11ad28373d.png",
+    "crop": {
+      "left": 870,
+      "top": 480,
+      "width": 910,
+      "height": 410
+    },
+    "edit": "Tik kadravimas; paveikslų turinys išsaugotas."
+  },
+  "note": "Autorės kūrinio URL rašomas CONFFESIONAL; tekste vartojamas oficialus kūrinio pavadinimas CONFESSIONAL."
+}

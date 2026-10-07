@@ -1,0 +1,171 @@
+{
+  "checkedOn": "2026-10-07",
+  "inputLinkCount": 14,
+  "requestedCount": 16,
+  "note": "Vartotojo sąraše buvo 14 nuorodų; du trūkstami darbai nepridėti ar nesugalvoti. Du laiškai pagal mediją: 8 ir 6 kūriniai. Tai naujos galerijos atrankos, ne teiginys, kad visi darbai sukurti 2026 m.",
+  "images": "Vieši HTTPS vaizdai iš oficialaus TUMO galerijos Shopify CDN. Visas katalogo kadras išsaugomas; crop, retušas ir generavimas netaikomi.",
+  "copy": "Trumpi originalūs redakciniai vaizdo aprašymai yra vizualinė interpretacija; technika, metai, dydžiai ir pavadinimai tikrinti pagal viešą produktų katalogą.",
+  "works": [
+    {
+      "id": "dubauskas-rugpjutis",
+      "artist": "Vytautas Dubauskas",
+      "title": "Rugpjūtis",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/vytautas-dubauskas-rugpjutis-2026",
+      "jsonSource": "https://tumogalerija.lt/products/vytautas-dubauskas-rugpjutis-2026.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/1x1-Vytautas-Dubauskas-Rugpjutis-2026-al-dr-198x165.jpg?v=1790671327",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/1x1-Vytautas-Dubauskas-Rugpjutis-2026-al-dr-198x165.jpg?v=1790671327&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "dubauskas-tevas",
+      "artist": "Vytautas Dubauskas",
+      "title": "Tėvas ir sūnus",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/vytautas-dubauskas-tevas-ir-sunus-2026",
+      "jsonSource": "https://tumogalerija.lt/products/vytautas-dubauskas-tevas-ir-sunus-2026.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/1x1-Vytautas-Dubauskas-Tevas-ir-sunus-2026-al-dr-186x166.jpg?v=1790844233",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/1x1-Vytautas-Dubauskas-Tevas-ir-sunus-2026-al-dr-186x166.jpg?v=1790844233&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "gediminas-tiesa5",
+      "artist": "Martynas Gediminas",
+      "title": "Tiesa 5",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/martynas-gediminas-the-truth-5-from-the-flowers-series-2026-acrylic-mixed-media-canvas-84x84",
+      "jsonSource": "https://tumogalerija.lt/products/martynas-gediminas-the-truth-5-from-the-flowers-series-2026-acrylic-mixed-media-canvas-84x84.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/IMG_8824.jpg?v=1791014495",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/IMG_8824.jpg?v=1791014495&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "bardsley-dancers",
+      "artist": "Theo Bardsley",
+      "title": "Trys šokėjos dūmuose",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/theo-bardsley-three-dancers-in-the-smoke-2026-oil-on-canvas-100x80",
+      "jsonSource": "https://tumogalerija.lt/products/theo-bardsley-three-dancers-in-the-smoke-2026-oil-on-canvas-100x80.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_593f7fc4-451d-41f1-8785-c21786ce7a77.jpg?v=1789639061",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_593f7fc4-451d-41f1-8785-c21786ce7a77.jpg?v=1789639061&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "bardsley-staithe",
+      "artist": "Theo Bardsley",
+      "title": "Virš prieplaukos",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/theo-bardsley-over-the-staithe-2026-oil-on-canvas-40x50",
+      "jsonSource": "https://tumogalerija.lt/products/theo-bardsley-over-the-staithe-2026-oil-on-canvas-40x50.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_23c83316-a69f-4bf7-aa97-5c6c09d3b666.jpg?v=1789562546",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_23c83316-a69f-4bf7-aa97-5c6c09d3b666.jpg?v=1789562546&width=1200",
+      "availableWhenChecked": true,
+      "note": "Katalogo angliškas title ir signatūra nesutampa: title rašo The Fishgutters Take Home, signatūra bei URL – Over the Staithe. Laiške vartojamas abiem kontekstams priskirtas lietuviškas Virš prieplaukos."
+    },
+    {
+      "id": "nksin-revival",
+      "artist": "NKSIN",
+      "title": "No.3: Revival III",
+      "year": "2022",
+      "productUrl": "https://tumogalerija.lt/products/nksin-japan-no-3-revival-iii-2022-acrylic-on-canvas-161x130",
+      "jsonSource": "https://tumogalerija.lt/products/nksin-japan-no-3-revival-iii-2022-acrylic-on-canvas-161x130.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_06224ebe-9785-4701-8406-42952257a106.jpg?v=1789559535",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Bbb_06224ebe-9785-4701-8406-42952257a106.jpg?v=1789559535&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "alpha-btd",
+      "artist": "ALPHA ODH",
+      "title": "BTD, DTB",
+      "year": "2024",
+      "productUrl": "https://tumogalerija.lt/products/alpha-odh-kenya-btd-dtb-2024",
+      "jsonSource": "https://tumogalerija.lt/products/alpha-odh-kenya-btd-dtb-2024.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Alpha-Odh-BTD-DTB-2024-125x145-1x1.jpg?v=1790672569",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Alpha-Odh-BTD-DTB-2024-125x145-1x1.jpg?v=1790672569&width=1200",
+      "availableWhenChecked": true,
+      "note": "Matmenys paimti iš dabartinio katalogo pavadinimo, ne nuotraukos failo pavadinimo."
+    },
+    {
+      "id": "migle-klausykla5",
+      "artist": "Miglė Jašauskė",
+      "title": "Klausykla Nr. 5",
+      "year": "2026",
+      "productUrl": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-5-2026",
+      "jsonSource": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-5-2026.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-5-1.jpg?v=1790847413",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-5-1.jpg?v=1790847413&width=1200",
+      "availableWhenChecked": false,
+      "sold": true,
+      "note": "Vartotojo admin nuoroda pakeista viešu to paties produkto puslapiu; svetainėje žyma PARDUOTI."
+    },
+    {
+      "id": "tobiasse-dance",
+      "artist": "Theo Tobiasse",
+      "title": "Kai Tora šoka su rabinu",
+      "year": "1968",
+      "productUrl": "https://tumogalerija.lt/products/theo-tobiasse-when-the-torah-dances-with-the-rabbi-1968-10-color-lithograph-on-arches-paper-60x45-83x63",
+      "jsonSource": "https://tumogalerija.lt/products/theo-tobiasse-when-the-torah-dances-with-the-rabbi-1968-10-color-lithograph-on-arches-paper-60x45-83x63.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_59f67e9d-d5bf-43b7-bf28-328ed4d04bb8.jpg?v=1790312911",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_59f67e9d-d5bf-43b7-bf28-328ed4d04bb8.jpg?v=1790312911&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "tobiasse-dovana",
+      "artist": "Theo Tobiasse",
+      "title": "Toros dovana",
+      "year": "1968",
+      "productUrl": "https://tumogalerija.lt/products/theo-tobiasse-the-giving-of-the-torah-1968-10-color-lithograph-on-arches-paper-45x60-64x79",
+      "jsonSource": "https://tumogalerija.lt/products/theo-tobiasse-the-giving-of-the-torah-1968-10-color-lithograph-on-arches-paper-45x60-64x79.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/IMG_7577.jpg?v=1791008885",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/IMG_7577.jpg?v=1791008885&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "usinskas-sedinti",
+      "artist": "Stasys Ušinskas",
+      "title": "Sėdinti",
+      "year": "XX a. 4 deš.",
+      "productUrl": "https://tumogalerija.lt/products/stasys-usinskas-seated-1930s-pencil-charcoal-paper-40x30-55x45-1",
+      "jsonSource": "https://tumogalerija.lt/products/stasys-usinskas-seated-1930s-pencil-charcoal-paper-40x30-55x45-1.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_c38f91aa-f680-4ed8-b24d-6f9827061ace.jpg?v=1781284941",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_c38f91aa-f680-4ed8-b24d-6f9827061ace.jpg?v=1781284941&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "eidrigevicius-exlibris",
+      "artist": "Stasys Eidrigevičius",
+      "title": "Ekslibrisas Tjarko-Tjitte van der Zee",
+      "year": null,
+      "productUrl": "https://tumogalerija.lt/products/stasys-eidrigevicius-ex-libris-tjarko-tjitte-van-der-zee-ofort-6x6-4-19-5x19-5",
+      "jsonSource": "https://tumogalerija.lt/products/stasys-eidrigevicius-ex-libris-tjarko-tjitte-van-der-zee-ofort-6x6-4-19-5x19-5.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_1_de38cd6c-90b4-407d-b37b-d3e65832c4af.jpg?v=1775193955",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_1_de38cd6c-90b4-407d-b37b-d3e65832c4af.jpg?v=1775193955&width=1200",
+      "availableWhenChecked": true,
+      "note": "Kataloge metai nenurodyti, todėl laiške jų nepridėta."
+    },
+    {
+      "id": "didelyte-geerth",
+      "artist": "Gražina Didelytė",
+      "title": "Ex eroticis Geerth",
+      "year": "1998",
+      "productUrl": "https://tumogalerija.lt/products/grazina-didelyte-ex-eroticis-geerth-1998-etching-9-5x6-6-21x16",
+      "jsonSource": "https://tumogalerija.lt/products/grazina-didelyte-ex-eroticis-geerth-1998-etching-9-5x6-6-21x16.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_139fad32-9ec3-4a52-99be-d3ea1316f18c.jpg?v=1788545189",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_139fad32-9ec3-4a52-99be-d3ea1316f18c.jpg?v=1788545189&width=1200",
+      "availableWhenChecked": true
+    },
+    {
+      "id": "kisarauskiene-blokland",
+      "artist": "Saulė Kisarauskienė",
+      "title": "Ekslibrisas Herber Blokland",
+      "year": "1971",
+      "productUrl": "https://tumogalerija.lt/products/saule-kisarauskiene-ex-libris-herber-blokland-1971-etching-7x4-8-19-3x15-3",
+      "jsonSource": "https://tumogalerija.lt/products/saule-kisarauskiene-ex-libris-herber-blokland-1971-etching-7x4-8-19-3x15-3.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_2_e551a6bd-9b1f-47b1-a56f-4fb9c6501c32.jpg?v=1788936991",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/pop_2_e551a6bd-9b1f-47b1-a56f-4fb9c6501c32.jpg?v=1788936991&width=1200",
+      "availableWhenChecked": true
+    }
+  ],
+  "logo": "https://raw.githubusercontent.com/kipras12A/tumo-galerija-elaiskai/17505e4382fe7a5dec0e6df5185c9cd73052574f/assets/tumo-logo.png",
+  "sendingNote": "Naujienlaiškiai nesiųsti. Reikia pridėti siuntimo platformos prenumeratos atsisakymo bloką ir prieš siuntimą patikrinti prieinamumą bei atlikti bandomąjį siuntimą."
+}

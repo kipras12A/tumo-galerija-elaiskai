@@ -2,6 +2,8 @@
 
 TUMO galerijos „ArtVilnius’26“ naujienlaiškis. Atskira saugykla nuo galerijos svetainės.
 
+Nauja atranka: [du naujų kūrinių naujienlaiškiai (2026-10-07)](naujienos-20261007/) – tapyba ir skulptūra (8 darbai), grafika ir piešinys (6 darbai). Siuntimo HTML, temos ir preheader yra atskiruose abiejų laiškų aplankuose. Toliau aprašyti šaknyje esantys failai priklauso ankstesniam „ArtVilnius’26“ laiškui.
+
 ## Kurį HTML naudoti?
 
 - `newsletter.html` – visas laiškas siuntimo platformos HTML importui. Visų šešių vaizdų adresai yra vieši HTTPS URL, todėl vaizdams nereikia šalia esančio katalogo ar GitHub prisijungimo.

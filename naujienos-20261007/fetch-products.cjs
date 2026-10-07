@@ -3,6 +3,7 @@ const path = require('node:path');
 
 const handles = [
   'migle-jasauske-klausykla-nr-5-2026',
+  'migle-jasauske-klausykla-nr-4-2026',
   'vytautas-dubauskas-tevas-ir-sunus-2026',
   'vytautas-dubauskas-rugpjutis-2026',
   'theo-bardsley-three-dancers-in-the-smoke-2026-oil-on-canvas-100x80',

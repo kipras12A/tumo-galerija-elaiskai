@@ -86,17 +86,24 @@
       "note": "Matmenys paimti iš dabartinio katalogo pavadinimo, ne nuotraukos failo pavadinimo."
     },
     {
-      "id": "migle-klausykla5",
+      "id": "migle-klausykla",
       "artist": "Miglė Jašauskė",
-      "title": "Klausykla Nr. 5",
+      "title": "Klausykla Nr. 4",
       "year": "2026",
-      "productUrl": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-5-2026",
-      "jsonSource": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-5-2026.js",
-      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-5-1.jpg?v=1790847413",
-      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-5-1.jpg?v=1790847413&width=1200",
-      "availableWhenChecked": false,
-      "sold": true,
-      "note": "Vartotojo admin nuoroda pakeista viešu to paties produkto puslapiu; svetainėje žyma PARDUOTI."
+      "productUrl": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-4-2026",
+      "jsonSource": "https://tumogalerija.lt/products/migle-jasauske-klausykla-nr-4-2026.js",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-4-1.jpg?v=1790847412",
+      "imageUsed": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-4-1.jpg?v=1790847412&width=1200",
+      "availableWhenChecked": true,
+      "ctaUrl": "https://tumogalerija.lt/collections/migle-jasauske",
+      "collectionSource": "https://tumogalerija.lt/collections/migle-jasauske/products.json?limit=250",
+      "presentation": {
+        "title": "„Klausykla“ skulptūros",
+        "metadata": "Medžio skulptūrų ciklas · 2026",
+        "imageCaption": "Nuotraukoje — „Klausykla Nr. 4“.",
+        "ctaLabel": "Peržiūrėti visas skulptūras"
+      },
+      "note": "Užsakovo patikslinimu pristatomas visas ciklas, ne parduota Nr. 5. Nuotraukai naudojama prieinama Nr. 4; CTA veda į menininkės kolekciją. Tikrinimo metu Nr. 4, 6 ir 7 turi PARDAVIME žymą."
     },
     {
       "id": "tobiasse-dance",

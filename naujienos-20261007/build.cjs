@@ -12,7 +12,8 @@ const ink = '#20211f';
 const muted = '#60615b';
 const sand = '#eeece5';
 const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const url = work => `https://tumogalerija.lt/products/${work.handle}`;
+const productUrl = work => `https://tumogalerija.lt/products/${work.handle}`;
+const url = work => work.collectionUrl || productUrl(work);
 const imageUrl = work => `${work.image}&width=1200`;
 const title = work => `${work.title}${work.year ? `, ${work.year}` : ''}`;
 const img = (work, width, cls = '') => `<a href="${esc(url(work))}" target="_blank">` +
@@ -55,12 +56,12 @@ function feature(id, kicker) {
   return `<tr><td class="pad feature-section" bgcolor="${sand}" style="padding:32px 40px 34px;background:${sand};">
   <p style="margin:0 0 20px;font-family:${font};font-size:10px;line-height:17px;letter-spacing:1.6px;color:${muted};">${esc(kicker)}</p>
   <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0"><tr>
-  <td class="stack feature-photo" width="224" valign="top" style="width:40%;">${img(work, 224)}</td>
+  <td class="stack feature-photo" width="224" valign="top" style="width:40%;">${img(work, 224)}${work.presentation ? `<p style="margin:10px 0 0;font-family:${font};font-size:11px;line-height:18px;color:${muted};">${esc(work.presentation.imageCaption)}</p>` : ''}</td>
   <td class="stack feature-copy" width="336" valign="top" style="width:60%;padding:0 0 0 26px;">
-  ${caption(work, true)}
+  ${work.presentation ? `<p style="margin:0 0 7px;font-family:${font};font-size:15px;line-height:22px;font-weight:bold;color:${ink};">${esc(artistLine(work))}</p><h3 style="margin:0 0 11px;font-family:${serif};font-size:25px;line-height:31px;font-weight:normal;color:${ink};">${esc(work.presentation.title)}</h3><p style="margin:0 0 14px;font-family:${font};font-size:12px;line-height:20px;color:${muted};">${esc(work.presentation.metadata)}</p>` : caption(work, true)}
   <p style="margin:0 0 17px;font-family:${font};font-size:14px;line-height:23px;color:${muted};">${esc(work.copy)}</p>
   ${work.sold ? `<p style="margin:0 0 17px;font-family:${font};font-size:11px;line-height:19px;color:${muted};"><strong style="letter-spacing:1px;color:${ink};">PARDUOTA</strong><br>Kūrinį pristatome kaip menininkės kūrybos dalį.</p>` : ''}
-  ${textLink(url(work), work.sold ? 'Susipažinti su kūriniu' : 'Peržiūrėti kūrinį')}
+  ${textLink(url(work), work.presentation?.ctaLabel || (work.sold ? 'Susipažinti su kūriniu' : 'Peržiūrėti kūrinį'))}
   </td></tr></table>
   </td></tr><tr><td style="height:34px;line-height:34px;font-size:0;">&nbsp;</td></tr>`;
 }
@@ -107,13 +108,13 @@ const emails = [
     heading: 'Spalva. Gestas.<br>Forma.',
     intro: 'Nauji kūriniai TUMO galerijoje — nuo didelio formato tapybos ir kasdienybės scenų iki šviesai jautrių paviršių bei medžio skulptūros. Kviečiame atrasti savo žvilgsnį patrauksiantį darbą.',
     hero: 'dubauskas-rugpjutis',
-    ids: ['dubauskas-rugpjutis', 'dubauskas-tevas', 'gediminas-tiesa5', 'bardsley-dancers', 'bardsley-staithe', 'nksin-revival', 'alpha-btd', 'migle-klausykla5'],
+    ids: ['dubauskas-rugpjutis', 'dubauskas-tevas', 'gediminas-tiesa5', 'bardsley-dancers', 'bardsley-staithe', 'nksin-revival', 'alpha-btd', 'migle-klausykla'],
     content: () => section('SPALVA IR FAKTŪRA', 'Skirtingi tapybos ritmai') +
       pair('dubauskas-tevas', 'gediminas-tiesa5') +
       section('THEO BARDSLEY', 'Kasdienybė, tapusi paveikslu', 'Du kūriniai, kuriuose asmeninė patirtis susitinka su figūratyvinės tapybos kalba.') +
       pair('bardsley-dancers', 'bardsley-staithe') +
       section('NAUJOS PERSPEKTYVOS', 'Žvilgsnis ir šviesa') +
-      pair('nksin-revival', 'alpha-btd') + feature('migle-klausykla5', 'IŠ ARTI · SKULPTŪRA')
+      pair('nksin-revival', 'alpha-btd') + feature('migle-klausykla', 'IŠ ARTI · SKULPTŪROS')
   },
   {
     slug: '02-grafika-ir-piesinys',
@@ -173,6 +174,7 @@ for (const email of emails) {
   fs.writeFileSync(path.join(out, 'HTML-BLOKAS.html'), `${styles}${content}\n`);
   fs.writeFileSync(path.join(out, 'newsletter.txt'), `Tema: ${email.subject}\nPreheader: ${email.preheader}\n\n${email.heading.replace(/<br>/g, ' ')}\n\n${email.intro}\n\n${email.ids.map(id => {
     const work = works[id];
+    if (work.presentation) return `${artistLine(work)} — ${work.presentation.title}\n${work.presentation.metadata}\n${work.copy}\n${work.presentation.imageCaption}\n${url(work)}`;
     return `${artistLine(work)} — ${title(work)}${work.series ? ` (${work.series})` : ''}\n${work.medium}; ${work.dimensions}.\n${work.copy}${work.sold ? '\nPARDUOTA. Kūrinį pristatome kaip menininkės kūrybos dalį.' : ''}\n${url(work)}`;
   }).join('\n\n')}\n\nAtraskite TUMO galerijos kūrinius: ${gallery}\nPasiteirauti: info@tumogalerija.lt\nTUMO galerija | Užupio g. 28, Vilnius\n`);
   fs.writeFileSync(path.join(out, 'campaign.json'), JSON.stringify({subject: email.subject, preheader: email.preheader, artworkCount: email.ids.length, artworkIds: email.ids}, null, 2) + '\n');
@@ -186,7 +188,7 @@ fs.writeFileSync(path.join(root, 'sources.json'), JSON.stringify({
   note: 'Vartotojo sąraše buvo 14 nuorodų; du trūkstami darbai nepridėti ar nesugalvoti. Du laiškai pagal mediją: 8 ir 6 kūriniai. Tai naujos galerijos atrankos, ne teiginys, kad visi darbai sukurti 2026 m.',
   images: 'Vieši HTTPS vaizdai iš oficialaus TUMO galerijos Shopify CDN. Visas katalogo kadras išsaugomas; crop, retušas ir generavimas netaikomi.',
   copy: 'Trumpi originalūs redakciniai vaizdo aprašymai yra vizualinė interpretacija; technika, metai, dydžiai ir pavadinimai tikrinti pagal viešą produktų katalogą.',
-  works: catalog.map(work => ({id: work.id, artist: work.artist, title: work.title, year: work.year || null, productUrl: url(work), jsonSource: `${url(work)}.js`, imageSource: work.image, imageUsed: imageUrl(work), availableWhenChecked: work.availableWhenChecked, ...(work.sold ? {sold: true} : {}), ...(work.sourceNote ? {note: work.sourceNote} : {})})),
+  works: catalog.map(work => ({id: work.id, artist: work.artist, title: work.title, year: work.year || null, productUrl: productUrl(work), jsonSource: `${productUrl(work)}.js`, imageSource: work.image, imageUsed: imageUrl(work), availableWhenChecked: work.availableWhenChecked, ...(work.collectionUrl ? {ctaUrl: work.collectionUrl, collectionSource: `${work.collectionUrl}/products.json?limit=250`, presentation: work.presentation} : {}), ...(work.sold ? {sold: true} : {}), ...(work.sourceNote ? {note: work.sourceNote} : {})})),
   logo,
   sendingNote: 'Naujienlaiškiai nesiųsti. Reikia pridėti siuntimo platformos prenumeratos atsisakymo bloką ir prieš siuntimą patikrinti prieinamumą bei atlikti bandomąjį siuntimą.'
 }, null, 2) + '\n');

@@ -90,19 +90,25 @@
     "sourceNote": "Matmenys paimti iš dabartinio katalogo pavadinimo, ne nuotraukos failo pavadinimo."
   },
   {
-    "id": "migle-klausykla5",
+    "id": "migle-klausykla",
     "artist": "Miglė Jašauskė",
-    "title": "Klausykla Nr. 5",
+    "title": "Klausykla Nr. 4",
     "year": "2026",
     "medium": "Medis",
     "dimensions": "Aukštis 122 cm",
-    "copy": "Medžio skulptūra iš ciklo „Klausykla“, pristatyta „ArtVilnius 2026“. Išdrožta ausis tampa subtiliu kvietimu sustoti ir įsiklausyti.",
-    "handle": "migle-jasauske-klausykla-nr-5-2026",
-    "image": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-5-1.jpg?v=1790847413",
-    "availableWhenChecked": false,
-    "sold": true,
-    "sourceProductId": 16603764818269,
-    "sourceNote": "Vartotojo admin nuoroda pakeista viešu to paties produkto puslapiu; svetainėje žyma PARDUOTI."
+    "copy": "Medžio skulptūros su išdrožtomis ausimis kviečia sustoti ir įsiklausyti. Atraskite ciklo „Klausykla“ kūrinius ir išsirinkite savąjį.",
+    "handle": "migle-jasauske-klausykla-nr-4-2026",
+    "image": "https://cdn.shopify.com/s/files/1/0292/6552/6843/files/Migle-Janusaite-Jasauske-Klausykla-4-1.jpg?v=1790847412",
+    "availableWhenChecked": true,
+    "sourceProductId": 16603764785501,
+    "collectionUrl": "https://tumogalerija.lt/collections/migle-jasauske",
+    "presentation": {
+      "title": "„Klausykla“ skulptūros",
+      "metadata": "Medžio skulptūrų ciklas · 2026",
+      "imageCaption": "Nuotraukoje — „Klausykla Nr. 4“.",
+      "ctaLabel": "Peržiūrėti visas skulptūras"
+    },
+    "sourceNote": "Užsakovo patikslinimu pristatomas visas ciklas, ne parduota Nr. 5. Nuotraukai naudojama prieinama Nr. 4; CTA veda į menininkės kolekciją. Tikrinimo metu Nr. 4, 6 ir 7 turi PARDAVIME žymą."
   },
   {
     "id": "tobiasse-dance",

@@ -1,0 +1,19 @@
+{
+  "language": "en",
+  "checkedOn": "2026-10-07",
+  "baseSources": "../sources.json",
+  "EnglishCatalogSource": "https://tumogalerija.lt/en/products.json?limit=250",
+  "destinationUrls": [
+    "https://tumogalerija.lt/en/products/vytautas-dubauskas-august-2026",
+    "https://tumogalerija.lt/en/products/vytautas-dubauskas-father-and-son-2026",
+    "https://tumogalerija.lt/en/products/martynas-gediminas-the-truth-5-from-the-flowers-series-2026-acrylic-mixed-media-canvas-84x84",
+    "https://tumogalerija.lt/en/products/theo-bardsley-three-dancers-in-the-smoke-2026-oil-on-canvas-100x80",
+    "https://tumogalerija.lt/en/products/theo-bardsley-over-the-staithe-2026-oil-on-canvas-40x50",
+    "https://tumogalerija.lt/en/products/nksin-japan-no-3-revival-iii-2022-acrylic-on-canvas-161x130",
+    "https://tumogalerija.lt/en/products/alpha-odh-kenya-btd-dtb-2024",
+    "https://tumogalerija.lt/en/collections/migle-jasauske",
+    "https://tumogalerija.lt/en/"
+  ],
+  "note": "English adaptation of the first Lithuanian newsletter. Artwork images and dimensions unchanged. Official English artwork titles used; Over the Staithe confirmed in the English catalog. Confessional block presents the series, illustrated by No. 4.",
+  "notSent": true
+}

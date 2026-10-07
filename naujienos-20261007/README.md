@@ -13,6 +13,8 @@ Pateikta 14 nuorodų, nors užsakovas minėjo 16 darbų. Trūkstami du kūriniai
 
 ## Failai kiekvienam laiškui
 
+Pirmo laiško angliška versija: `01-painting-and-sculpture-en/`. Joje tie patys 8 pristatymai ir nuotraukos, įskaitant „Confessional“ ciklo bloką; CTA veda į angliškus galerijos puslapius. LT ir EN temos bei preheader kartu pateikti `subject-lines.txt`. EN laiškas dar nesiųstas.
+
 - `newsletter.html` – pilnas HTML siuntimo platformos importui.
 - `HTML-BLOKAS.html` – HTML turinys ir stiliai platformos kodo redaktoriui.
 - `preview.html` – tas pats pilnas HTML peržiūrai naršyklėje.
@@ -36,6 +38,8 @@ GitHub pasirinkite **Raw**, jei norite kopijuoti patį HTML kodą. Kopijuokite `
 `catalog.json` – redaguojami kūrinių duomenys ir trumpi tekstai; `build.cjs` – bendras laiškų maketas bei eiliškumas; `sources.json` – faktų, vaizdų ir katalogo neatitikimų šaltiniai. Skriptams reikia Node.js 18 ar naujesnio, papildomų paketų nereikia.
 
 Paleiskite `node build.cjs`, kad iš naujo sugeneruotumėte abu laiškus. Tada `node verify.cjs` patikrins darbų unikalumą, siuntimo failų vaizdų adresus, produktų CTA ir nuotraukų bei produktų puslapių atsakymus be autorizacijos.
+
+Angliškai versijai po LT generavimo paleiskite `node build-en.cjs`, tada `node verify-en.cjs`. `english.json` saugo vertimus, temas ir patikrintus angliškus produktų adresus. EN šablonas generuojamas iš pirmo LT maketo, todėl dizainas išlaikomas vienodas.
 
 Patikrinti 14 produkto puslapių ir 15 skirtingų viešų vaizdų (14 kūrinių bei logotipas): visi grąžino HTTP 200. Abu laiškai patikrinti Chromium naršyklėje 800, 390 ir 320 px pločiais: nuotraukos užkraunamos, yra alternatyvus tekstas, nėra horizontalaus perslinkimo ar antraščių perpildymo. HTML dydžiai mažesni nei 25 KB. Tai nėra visų el. pašto programų suderinamumo garantija.
 

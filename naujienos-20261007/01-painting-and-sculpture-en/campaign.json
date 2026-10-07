@@ -1,0 +1,21 @@
+{
+  "language": "en",
+  "subject": "New works: colour, gesture and form | TUMO Gallery",
+  "subjectAlternatives": [
+    "Discover new paintings and sculptures at TUMO",
+    "A new perspective: the latest works at TUMO Gallery"
+  ],
+  "preheader": "Paintings by Dubauskas and Theo Bardsley, expressive surfaces and Miglė Jašauskė’s Confessional sculptures.",
+  "artworkCount": 8,
+  "artworkIds": [
+    "dubauskas-rugpjutis",
+    "dubauskas-tevas",
+    "gediminas-tiesa5",
+    "bardsley-dancers",
+    "bardsley-staithe",
+    "nksin-revival",
+    "alpha-btd",
+    "migle-klausykla"
+  ],
+  "basedOn": "../01-tapyba-ir-skulptura/"
+}
